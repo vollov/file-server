@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+    ul#books
+      li
+        a(href="/files/1001.JPG") Book A
+      li
+        a(href="/files/1002.JPG") Book B
+      li
+        a(href="/files/jenkins.zip") jenkins
+      li
+        a(href="/files/artifactory.zip") artifactory
